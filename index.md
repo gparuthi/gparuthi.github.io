@@ -102,6 +102,7 @@ Contact:
 ---
 
 ## News
+
 | [09/01/15] | Had a great summer at PARC | 
 | [03/09/15] | Paper accepted in ICWSM'15! | 
 | [03/02/15] | Going to be in PARC for the summer :) |
