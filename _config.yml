@@ -1,0 +1,17 @@
+name: Gaurav Paruthi
+author: Gaurav Paruthi
+description: Gaurav Paruthi is a grad student.
+url: http://gauravparuthi.com
+highlighter: pygments
+permalink: /:title
+ordered_categories: [academic, other]
+all_tags: [HCI, UbiComp, ICTD, DataMining, Health]
+sass:
+  sass_dir: css
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

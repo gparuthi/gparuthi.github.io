@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Gaurav Paruthi is a grad student.">
+    <meta name="author" content="Gaurav Paruthi">
+    <link rel="alternate" type="application/rss+xml"  href="http://gparuthi.com/feed.xml" title="Gaurav Paruthi RSS Feed">
+
+    <title>Gaurav Paruthi | Crowd-generated Contextualized Behavior Change Messages</title>
+
+    <link rel="stylesheet" media="all" href="/css/mine.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- <link href="../old_site/media/css/styles.css" rel="stylesheet" type="text/css" /> -->
+    <script src="../old_site/media/js/cdb-studio.js" type="text/javascript"></script>
+    <script src="../old_site/media/js/project-load.js" type="text/javascript"></script>
+    <script src="../old_site/media/js/google-an.js" type="text/javascript"></script>
+
+    
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
+    
+
+    <!-- Any other scripts or anything that the page may want. -->
+    
+    
+
+    <script type="text/javascript">
+    function call_event(event){
+        var url = 'http://54.148.105.119/gplog/';
+
+        if (event.target == null)
+            url += 'nav';
+        else
+            url += 'click';
+
+        $.get( url, {'url': window.location.pathname, 'target': event.target})
+    }
+
+    $(document).ready(function() {
+        call_event({'target':null});
+        document.addEventListener('click', call_event, false);
+    });
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-10074884-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+
+<body lang="en">
+    <div class="container">
+        
+        <div class="smaller_container">
+        
+            <div class="header">
+                
+                    <p>
+                        <a href="/" rel="author">
+                            <i class="fa fa-th"></i>
+                            Gaurav Paruthi
+                        </a>
+                    </p>
+                    <h1><p>Crowd-generated Contextualized Behavior Change Messages</p>
+</h1>
+                
+            </div>
+
+            <div class="content">
+                
+                <aside>
+                    Published 19 Sep 2014.
+                    <!--<br />
+                    Reading time: Health communication researchers synthesize complex qualitative data to create personalized text-message based interventions for behavior change, but the process is time-consuming, cognitively taxing and resources-intensive.  Crowdsourcing shows the promise of supporting this process, through "on-demand  harnessing of flexible and powerful human congnition". In this work, we addresses the following challenges of crowd-sourcing research: getting behavior change message content that is context-appropriate and non-redundant. We are conducting an empirical study of a three-stage approach for enabling crowds to create context-appropriate, tone-sensitive and non-redundant behavior messages.
+
+
+## Pipeline
+<p><img width="640px" src="/images/pcbc/crowd_pipelne.png" alt="mobile"></p>
+
+{% for publication in page.publications %}
+<div class="publication">
+    <div><img src="{{ publication[1].image }}" width="180px" /></div>
+    <div markdown="1">{{ publication[1].info }}</div>
+</div>
+{% endfor %}
+
+{% include peoples_urls.md %}
+.-->
+                </aside>
+                <p>Health communication researchers synthesize complex qualitative data to create personalized text-message based interventions for behavior change, but the process is time-consuming, cognitively taxing and resources-intensive.  Crowdsourcing shows the promise of supporting this process, through “on-demand  harnessing of flexible and powerful human congnition”. In this work, we addresses the following challenges of crowd-sourcing research: getting behavior change message content that is context-appropriate and non-redundant. We are conducting an empirical study of a three-stage approach for enabling crowds to create context-appropriate, tone-sensitive and non-redundant behavior messages.</p>
+
+<h2 id="pipeline">Pipeline</h2>
+<p><img width="640px" src="/images/pcbc/crowd_pipelne.png" alt="mobile" /></p>
+
+
+                
+            </div>
+
+            
+
+            <hr />
+            <div class="footer"> Updated 19 Mar 2015 | <a href="//si.umich.edu">School of Information</a> | <a href="//www.umich.edu">University of Michigan</a></div>
+        </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>

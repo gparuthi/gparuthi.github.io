@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Gaurav Paruthi</title>
+        <description>Gaurav Paruthi is a grad student.</description>
+        <link>http://gauravparuthi.com</link>
+        <atom:link href="http://gauravparuthi.com/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>&lt;p&gt;Crowd-generated Contextualized Behavior Change Messages&lt;/p&gt;
+</title>
+                
+                    <description>We present a crowdsourcing algorithm that enables paid workers to create context-appropriate and tone-sensitive behavior messages. Our approach is the first to leverage crowd-workers for generating &quot;fresh&quot; messages.
+</description>
+                
+                <pubDate>Fri, 19 Sep 2014 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/crowd-generated</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/crowd-generated</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Recommending Lifestyle and Behavior Changes&lt;/p&gt;
+</title>
+                
+                    <description>Modeling people&#39;s context, habits, lifestyles, wellness goals and their achievements and failures allow interventions that are personalized to the needs of the individual. We propose a recommender system that leverages user-similariy to recommend the most effective lifestyle choices.
+</description>
+                
+                <pubDate>Tue, 20 May 2014 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/recommend-lifestyle</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/recommend-lifestyle</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;StoneSoup: A Community Driven Proactive Display&lt;/p&gt;
+</title>
+                
+                    <description>A community driven proactive display system that detects the nearby users and allow its users to personalize content for the display with reduced the burden of updating content.
+</description>
+                
+                <pubDate>Tue, 20 Aug 2013 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/stonesoup</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/stonesoup</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Understanding Lending Behaviors on Online Microlending Platforms: The Case for Kiva&lt;/p&gt;
+</title>
+                
+                    <description>Our in-depth analysis of a microlending website shows that lenders appear to lend more to highly rated institutions, and with what appears to be better planned lending decisions; and that smaller, homogeneous teams seem to drive more lending activity and to achieve larger team lending agreements.
+</description>
+                
+                <pubDate>Thu, 20 Jun 2013 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/kiva</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/kiva</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Twitter Quakes&lt;/p&gt;
+</title>
+                
+                    <description>Developed a technique to measure the impact of global events on different geographic locations. Our technique measures significant increase in the volume of tweets during specific time periods, which are generally caused by some significant happening of the event.
+</description>
+                
+                <pubDate>Thu, 20 Dec 2012 00:00:00 -0500</pubDate>
+                <link>http://gauravparuthi.com/twitter-quakes</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/twitter-quakes</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Interactive DVD as a Platform for Education&lt;/p&gt;
+</title>
+                
+                    <description>We present a crowdsourcing algorithm that enables paid workers to create context-appropriate and tone-sensitive behavior messages. Our approach is the first to leverage crowd-workers for generating &quot;fresh&quot; messages.
+</description>
+                
+                <pubDate>Fri, 20 May 2011 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/interactive-dvd</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/interactive-dvd</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Attentional Object Detection: introductory slides&lt;/p&gt;
+</title>
+                
+                    <description>Motivation for and some lit review related to the idea of attentional object detection--not looking for everything everywhere.</description>
+                
+                <pubDate>Thu, 24 Mar 2011 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/attentional-object-detection</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/attentional-object-detection</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Self-organizing sparse codes: VS 265 course project&lt;/p&gt;
+</title>
+                
+                    <description>The biological motivation for sparse coding also suggests that the learned receptive field elements should be organized spatially.
+We investigate ways of enforcing a topography over the learned codes in a locally self-organizing map approach.
+</description>
+                
+                <pubDate>Sun, 12 Dec 2010 00:00:00 -0500</pubDate>
+                <link>http://gauravparuthi.com/self-organizing-sparse-codes</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/self-organizing-sparse-codes</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Jupiter album art recreation&lt;/p&gt;
+</title>
+                
+                    <description>Recreation of a cool album cover image (Jupiter by Starfucker) using Processing.</description>
+                
+                <pubDate>Mon, 16 Aug 2010 00:00:00 -0400</pubDate>
+                <link>http://gauravparuthi.com/jupiter</link>
+                <guid isPermaLink="true">http://gauravparuthi.com/jupiter</guid>
+            </item>
+        
+    </channel>
+</rss>

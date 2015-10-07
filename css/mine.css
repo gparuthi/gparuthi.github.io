@@ -1,0 +1,412 @@
+/* Normalize */
+/**
+ * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
+ * http://cssreset.com
+ * Copyright 2012 Yahoo! Inc. All rights reserved.
+ * http://yuilibrary.com/license/
+ */
+/*
+    TODO will need to remove settings on HTML since we can't namespace it.
+    TODO with the prefix, should I group by selector or property for weight savings?
+*/
+html {
+  color: #000;
+  background: #FFF; }
+
+/*
+    TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+    TODO test putting a class on HEAD.
+        - Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset,
+img {
+  border: 0; }
+
+/*
+    TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol,
+ul {
+  list-style: none; }
+
+caption,
+th {
+  text-align: left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before,
+q:after {
+  content: ''; }
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal; }
+
+/* to preserve line-height and selector appearance */
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+  *font-size: 100%; }
+
+/*because legend doesn't inherit in IE */
+legend {
+  color: #000; }
+
+/* YUI CSS Detection Stamp */
+#yui3-css-stamp.cssreset {
+  display: none; }
+
+/* Apply ipython notebook styles to notebook div. 
+#notebook {
+  @import "notebook";
+}*/
+/*
+  Some stuff from CSS Toast.
+*/
+.grid {
+  margin-left: -3%;
+  max-width: 105%; }
+
+.unit {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  margin-left: 3%;
+  margin-right: -.25em;
+  /* Clearfix */
+  overflow: hidden;
+  *overflow: visible; }
+
+.span-grid {
+  width: 97%; }
+
+.one-of-two {
+  width: 47%; }
+
+.one-of-three {
+  width: 30.36%; }
+
+.two-of-three {
+  width: 63.666666666%; }
+
+.one-of-four {
+  width: 22.05%; }
+
+.three-of-four {
+  width: 72%; }
+
+.one-of-five {
+  width: 17.07%; }
+
+.two-of-five {
+  width: 37%; }
+
+.three-of-five {
+  width: 57%; }
+
+.four-of-five {
+  width: 77%; }
+
+@media screen and (max-width: 840px) {
+  .grid {
+    margin-left: 0;
+    max-width: none; }
+
+  .unit {
+    width: auto;
+    margin-left: 0;
+    display: block; } }
+/*
+  My style.
+  color scheme: http://colorschemedesigner.com/#3s21QvyQpw0w0
+*/
+html, body {
+  font: 100%/1.5 'Merriweather', serif;
+  text-rendering: optimizeLegibility;
+  color: #585857; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 30px;
+  padding: 0 1.5rem; }
+
+.smaller_container {
+  /* 880 px width inside a 960 container */
+  max-width: 880px;
+  margin: 0 auto; }
+
+.site_title {
+  font-weight: bold;
+  margin-left: 5rem; }
+
+.avatar {
+  position: absolute;
+  top: 0.333rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  background: url(/images/my_headshot.jpg) no-repeat;
+  background-size: 4rem; }
+
+strong {
+  font-weight: bold; }
+
+a {
+  color: #ff8a04;
+  text-decoration: none;
+  -webkit-transition: color .15s ease-out;
+  -moz-transition: color .15s ease-out;
+  transition: color .15s ease-out; }
+
+a:not(:hover) {
+  color: #0e9ce0; }
+
+/**
+    PROJECTS LIST
+**/
+ul.projects li {
+  display: block;
+  /* Clearfix */
+  overflow: hidden;
+  *overflow: visible; }
+
+ul.projects li img {
+  float: left; }
+
+ul.projects li div {
+  margin-left: 200px; }
+
+ul.projects.notes li div {
+  margin-left: 140px; }
+
+ul.projects li.nothumb div {
+  margin-left: 0; }
+
+/* If iPhone size, display images and text on different lines. */
+@media screen and (max-width: 420px) {
+  ul.projects li img {
+    float: none;
+    margin-top: 0; }
+
+  ul.projects li div {
+    margin-left: 0; } }
+aside {
+  margin-left: 700px;
+  /* 640 for p + 60 margin + 180 for aside = 880 */
+  position: absolute;
+  width: 180px; }
+
+@media screen and (max-width: 840px) {
+  aside {
+    margin-left: 0;
+    position: relative;
+    width: auto; } }
+.article {
+  max-width: 880px; }
+
+.content p, pre, code {
+  max-width: 670px; }
+
+em {
+  font-style: italic; }
+
+h1, h2, h3, h4, .header, .footer, .publication, .sans {
+  font-family: "source-sans-pro", sans-serif; }
+
+h1, h2, h3, h4 {
+  color: #3f3f3e; }
+
+h1 p, h2 p, h3 p {
+  margin: 0; }
+
+p, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption {
+  font-size: 0.94em;
+  /* equiv 16px */
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0; }
+
+h1, .h1-like {
+  font-size: 2em;
+  /* equiv 32px */
+  line-height: 1.5em;
+  margin: 0 0 .75em 0; }
+
+h2, .h2-like {
+  font-size: 1.5em;
+  /* equiv 24px */
+  line-height: 1em;
+  margin: 0 0  1em 0; }
+
+h3, .h3-like {
+  font-size: 1em;
+  /* equiv 16px */
+  line-height: 1.5em;
+  margin: 0 0  1.5em 0; }
+
+.smaller, aside {
+  font-size: .75em;
+  /* equiv 12px */
+  line-height: 2em;
+  margin-bottom: 2em; }
+
+.footer, .small, ul.projects p {
+  font-size: .875em;
+  /* equiv 14px */
+  line-height: 1.7143em;
+  margin-bottom: 1.7143em; }
+
+ul.projects ul {
+  font-size: .875em;
+  /* equiv 14px */
+  line-height: 1.7143em;
+  margin-bottom: 1.7143em;
+  margin-top: -1.7143em; }
+
+ul.projects ul li {
+  display: list-item;
+  list-style-type: disc;
+  overflow: visible;
+  margin-left: 1rem;
+  /* aligned with paragraph edge */ }
+
+/* avoid supp margin on nested elements */
+li p, li ul {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* you shall not pass */
+textarea, table, td, th, code, pre, samp, div, p {
+  word-wrap: break-word;
+  hyphens: auto; }
+
+code, pre, samp {
+  white-space: pre-wrap;
+  font-family: consolas, monospace; }
+
+code {
+  line-height: 1em; }
+
+table {
+  margin-bottom: 1.5em; }
+
+hr {
+  height: 0;
+  margin: -1px 0 0 0;
+  margin-bottom: 1.5rem;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.publication div {
+  display: inline-block;
+  vertical-align: top; }
+
+.header {
+  margin-top: 1em; }
+
+.tags {
+  font-size: 0.8em;
+  color: #67809F; }
+
+.select-tags {
+  font-size: 1em;
+  color: #D8A830;
+  text-align: center; }
+
+h5 {
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: normal;
+  color: #3c4955;
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #9da4aa; }
+
+.projects-li-items {
+  font-size: 11px;
+  margin: -5px 0 0 0;
+  padding: 0;
+  display: block;
+  color: #7B7D82; }
+
+.wProjectImage {
+  max-width: 450px;
+  max-height: 350px;
+  float: right; }
+
+table {
+  width: 670px;
+  margin-top: 2em;
+  margin-bottom: 3em; }

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+{% include head.html %}
+
+<body lang="en">
+    <div class="container">
+        <div class="smaller_container">
+        
+            <div class="header">
+
+                <p>
+                    <a href="/" rel="author">
+                        <i class="fa fa-th"></i>
+                        {{ site.name }}
+                    </a>
+                </p>
+                <h1>{{ page.title | markdownify | strip }}</h1>
+                
+            </div>
+
+            <div class="content">
+
+                {{ content }}
+
+            </div>
+
+            <hr />
+            <div class="footer"> Updated {{ site.time | date_to_string }} </div>
+        </div>
+    </div>
+    
+</body>
+</html>

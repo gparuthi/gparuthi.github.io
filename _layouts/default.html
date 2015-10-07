@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+{% include head.html %}
+
+<body lang="en">
+    <div class="container">
+        {% if page.url != '/index.html' %}
+        <div class="smaller_container">
+        {% endif %}
+            <div class="header">
+                {% if page.url != '/index.html' %}
+                    <p>
+                        <a href="/" rel="author">
+                            <i class="fa fa-th"></i>
+                            {{ site.name }}
+                        </a>
+                    </p>
+                    <h1>{{ page.title | markdownify | strip }}</h1>
+                {% else %}
+                <div class="avatar"></div>
+                <div class="site_title"><h1>{{ site.name }}</h1></div>
+                {% endif %}
+            </div>
+
+            <div class="content">
+                {% if page.url != '/index.html' %}
+                <aside>
+                    Published {{ page.date | date_to_string }}.
+                    <!--<br />
+                    Reading time: {{ page.content | reading_time }}.-->
+                </aside>
+                {{ content }}
+                {% else %}
+                {{ content }}
+                {% endif %}
+            </div>
+
+            {% if page.comments %}
+                {% include comments.html %}
+            {% endif %}
+
+            <hr />
+            <div class="footer"> Updated {{ site.time | date_to_string }} | <a href="//si.umich.edu">School of Information</a> | <a href="//www.umich.edu">University of Michigan</a></div>
+        </div>
+        {% if page.url != '/index.html' %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
