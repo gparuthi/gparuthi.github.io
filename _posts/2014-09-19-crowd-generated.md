@@ -31,7 +31,7 @@ publications:
 ---
 
 Health communication researchers synthesize complex qualitative data to create personalized text-message based interventions for behavior change, but the process is time-consuming, cognitively taxing and resources-intensive.  Crowdsourcing shows the promise of supporting this process, through "on-demand  harnessing of flexible and powerful human congnition". In this work, we addresses the following challenges of crowd-sourcing research: getting behavior change message content that is context-appropriate and non-redundant. We are conducting an empirical study of a three-stage approach for enabling crowds to create context-appropriate, tone-sensitive and non-redundant behavior messages.
-
+   
 
 ## Pipeline
 <p><img width="640px" src="/images/pcbc/crowd_pipelne.png" alt="mobile"></p>
