@@ -4,7 +4,7 @@ layout: default
 ---
 I am a PhD candidate in the iSchool at University of Michigan, advised by [Mark Newman](http://mwnewman.people.si.umich.edu/).
 <br />
-My work centers around context-aware computing. Consider my <a href="/resume/gauravparuthi.pdf">CV
+My work centers around context-aware computing. Consider my <a href="https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf">CV
                 </a> and Projects.
                 <br />
 Contact:
