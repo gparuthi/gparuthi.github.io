@@ -2,7 +2,7 @@ name: Gaurav Paruthi
 author: Gaurav Paruthi
 description: Gaurav Paruthi is a grad student.
 url: http://gauravparuthi.com
-highlighter: pygments
+highlighter: rouge
 permalink: /:title
 ordered_categories: [academic, other]
 all_tags: [HCI, UbiComp, ICTD, DataMining, Health]
