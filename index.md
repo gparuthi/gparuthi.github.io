@@ -2,7 +2,7 @@
 title: Home
 layout: default
 ---
-I am a PhD candidate in the iSchool at University of Michigan, advised by [Mark Newman](http://mwnewman.people.si.umich.edu/).
+I am a PhD candidate in the [School of Information](http://si.umich.edu) at University of Michigan, advised by [Prof. Mark Newman](http://mwnewman.people.si.umich.edu/).
 <br />
 My work centers around context-aware computing. Check out my <a href="https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf">CV
                 </a> and Projects.
