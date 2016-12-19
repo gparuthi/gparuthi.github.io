@@ -37,14 +37,11 @@
 
     <script type="text/javascript">
     function call_event(event){
-        var url = 'http://54.148.105.119/gplog/';
-
-        if (event.target == null)
-            url += 'nav';
-        else
-            url += 'click';
-
-        $.get( url, {'url': window.location.pathname, 'target': event.target})
+        ga('send', {
+          "hitType": 'event',
+          "eventAction": 'click',
+          "eventLabel": event,
+        });
     }
 
     $(document).ready(function() {
