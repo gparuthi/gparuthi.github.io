@@ -195,7 +195,7 @@ legend {
   font: 120%/1.5 'Merriweather', serif;
   text-rendering: optimizeLegibility;
   color: #585857; }
-.bigText>span{
+.bigText>.description{
   color: gray;
 }
 
@@ -250,7 +250,8 @@ ul.projects li {
   display: block;
   /* Clearfix */
   overflow: hidden;
-  *overflow: visible; }
+  *overflow: visible; 
+    height: 180px;}
 
 ul.projects li img {
   float: left; }
@@ -264,25 +265,7 @@ ul.projects.notes li div {
 ul.projects li.nothumb div {
   margin-left: 0; }
 
-/* If iPhone size, display images and text on different lines. */
-@media screen and (max-width: 420px) {
-  ul.projects li img {
-    float: none;
-    margin-top: 0; }
 
-  ul.projects li div {
-    margin-left: 0; } }
-aside {
-  margin-left: 700px;
-  /* 640 for p + 60 margin + 180 for aside = 880 */
-  position: absolute;
-  width: 180px; }
-
-@media screen and (max-width: 840px) {
-  aside {
-    margin-left: 0;
-    position: relative;
-    width: auto; } }
 .article {
   max-width: 880px; }
 
@@ -419,3 +402,45 @@ table {
   width: 670px;
   margin-top: 2em;
   margin-bottom: 3em; }
+
+/* If iPhone size, display images and text on different lines. */
+@media screen and (max-width: 420px) {
+  ul.projects li {
+    height: 100%;
+    text-align: center;
+  }
+
+  ul.projects li img {
+    float: none;
+    margin-top: 0; 
+    text-align: center;}
+
+  ul.projects li div {
+    margin-left: 0; } 
+
+  ul.projects ul li {
+  display: list-item;
+  list-style-type: none;
+  overflow: visible;
+  margin-left: 1rem;
+  /* aligned with paragraph edge */ }
+
+  .bigText>.description {
+    display: block;
+  }
+  .bigText>.selectable {
+    /*font-size: medium;*/
+  }
+}
+aside {
+  margin-left: 700px;
+  /* 640 for p + 60 margin + 180 for aside = 880 */
+  position: absolute;
+  width: 180px; }
+
+@media screen and (max-width: 840px) {
+  aside {
+    margin-left: 0;
+    position: relative;
+    width: auto; } 
+  }

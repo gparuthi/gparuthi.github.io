@@ -16,7 +16,7 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                 <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en">Google Scholar</a> 
 
 {:.bigText}
-<span>Who am I?</span> Engineer, Designer, Researcher, Data-Scientist 
+<span class="description">Who am I?</span> <span class="selectable">Engineer, Designer, Researcher, Data-Scientist</span>  
 
 <div class="grid">
 
@@ -34,7 +34,8 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
 
                 <li tags= "{{ post.tags }}">
                 {% if post.thumbnail %}
-                    <img src="{{ post.thumbnail }}" width="180px">
+                    <a href="{{ url }}">
+                    <img src="{{ post.thumbnail }}" width="180px"></a>
                 {% endif %}
 
                 <div>
