@@ -4,11 +4,11 @@
 
 <body lang="en">
     <div class="container">
-        {% if page.url != '/index.html' %}
+        {% if page.url != '/' %}
         <div class="smaller_container">
         {% endif %}
             <div class="header">
-                {% if page.url != '/index.html' %}
+                {% if page.url != '/' %}
                     <p>
                         <a href="/" rel="author">
                             <i class="fa fa-th"></i>
@@ -16,13 +16,13 @@
                         </a>
                     </p>
                     <h1>{{ page.title | markdownify | strip }}</h1>
-                    
+
                      
                 {% endif %}
             </div>
 
             <div class="content">
-                {% if page.url != '/index.html' %}
+                {% if page.url != '/' %}
                 <aside>
                     
                 </aside>
@@ -39,7 +39,7 @@
             <hr />
             <div class="footer"> Updated {{ site.time | date_to_string }} | <a href="//si.umich.edu">School of Information</a> | <a href="//www.umich.edu">University of Michigan</a></div>
         </div>
-        {% if page.url != '/index.html' %}
+        {% if page.url != '/' %}
         </div>
         {% endif %}
     </div>

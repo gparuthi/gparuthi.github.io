@@ -1,5 +1,5 @@
 ---
-title: 
+title: Home
 layout: default
 ---
 I am a PhD candidate in the iSchool at University of Michigan, advised by [Mark Newman](http://mwnewman.people.si.umich.edu/).
