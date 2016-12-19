@@ -7,7 +7,7 @@ alias: /work/interactive-dvd/
 tags: HCI, ICTD, Education
 abstract:
 |
-    The project leveraged the capabilities of the standard TV DVD player to view interactive educational content like Wikipedia, children books and PowerPoint slides.
+    Leveraged the capabilities of the standard DVD player to view interactive educational content like Wikipedia, children books and slides.
 bullets:
 |
     - [[T4E 2012]](/files/dvds-t4e.pdf) [[ICTD 2010]](http://research.microsoft.com/en-us/um/people/thies/thies-ictd10.pdf) [[CHI 2011 (Top5%)]](http://www.academia.edu/3827799/Utilizing_DVD_Players_as_Low-Cost_Of_ine_Internet_Browsers)

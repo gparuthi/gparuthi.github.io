@@ -190,8 +190,17 @@ legend {
   My style.
   color scheme: http://colorschemedesigner.com/#3s21QvyQpw0w0
 */
+
+.bigText {
+  font: 120%/1.5 'Merriweather', serif;
+  text-rendering: optimizeLegibility;
+  color: #585857; }
+.bigText>span{
+  color: gray;
+}
+
 html, body {
-  font: 100%/1.5 'Merriweather', serif;
+  font: 105%/1.5 'Merriweather', serif;
   text-rendering: optimizeLegibility;
   color: #585857; }
 
