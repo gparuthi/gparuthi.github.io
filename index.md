@@ -84,7 +84,7 @@ Contact:
         <div>
         <span class="sans">
         {% if post.metadata_only %}
-            <span markdown="1">{{ post.title }} - {{ post.links }}</span>
+            <span markdown="1">{{ post.title }}</span>
         {% else %}
             <span markdown="1"><a href="{{ post.url }}">{{ post.title }}</a></span>
         {% endif %}

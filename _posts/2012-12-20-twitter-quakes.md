@@ -1,7 +1,7 @@
 ---
 title: Twitter Quakes
 category: other
-featured: true
+featured: false
 thumbnail: "/images/twitter-quakes/plot2.png"
 alias: /work/twitter-quakes/
 metadata_only: true

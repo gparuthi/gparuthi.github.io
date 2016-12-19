@@ -7,7 +7,7 @@ alias: /work/crowd_generated/
 tags: HCI, UbiComp, Health
 abstract:
 |
-    We present a crowdsourcing algorithm that enables paid workers to create context-appropriate and tone-sensitive behavior messages. Our approach is the first to leverage crowd-workers for generating "fresh" messages.
+    Crowdsourcing system that enables paid crowd workers to create context-appropriate behavior messages.
 bullets:
 |
     - [SBM 2015]

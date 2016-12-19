@@ -7,7 +7,7 @@ alias: /work/stonesoup/
 tags: HCI, UbiComp, CSCW
 abstract:
 |
-    A community driven proactive display system that detects the nearby users and allow its users to personalize content for the display with reduced the burden of updating content.
+    A community driven proactive display system that allows personalization of content.
 bullets:
 |
     - [[Poster]](https://rawgit.com/gparuthi/resume/master/resc/StoneSoupPoster.pdf) [[Extended Abstract]](https://rawgit.com/gparuthi/resume/master/resc/StoneSoup_ExtendedAbstract.pdf)
