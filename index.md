@@ -15,8 +15,8 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                 <a href="http://www.linkedin.com/in/gparuthi"><i class="fa fa-linkedin"></i></a> ·
                 <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a> 
 
-{:.bigText}
-<span class="description" markdown="1">`I am...`</span> <span class="selectable" markdown="1">`Engineer, Designer, HCI-Researcher, Data-Scientist`</span>  
+
+<projects></projects>
 
 <div class="grid">
 
@@ -32,7 +32,7 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                     {% endif %}
                 {% endcapture %}
 
-                <li tags= "{{ post.tags }}">
+                <li data-tags= "{{ post.tags }}">
                 {% if post.thumbnail %}
                     <a href="{{ url }}">
                     <img src="{{ post.thumbnail }}" width="180px"></a>
@@ -73,7 +73,7 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                     {% endif %}
                 {% endcapture %}
 
-                <li tags= "{{ post.tags }}">
+                <li data-tags= "{{ post.tags }}">
                 {% if post.thumbnail %}
                     <a href="{{ url }}">
                     <img src="{{ post.thumbnail }}" width="180px"></a>
@@ -90,7 +90,9 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                 {% if post.publications %}
                 <span class="publicationText bgText"><i class="fa fa-graduation-cap"></i></span>
                 {% for publication in post.publications %}
+                    {% if publication[1].file %}
                    <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                   {% endif %}
                 {% endfor %}
                 {% endif %}
 
@@ -101,6 +103,7 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                 </li>
             {% endif %}
         {% endfor %}
+        
         
         </ul>
     </div>

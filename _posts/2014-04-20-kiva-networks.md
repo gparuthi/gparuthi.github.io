@@ -5,10 +5,10 @@ featured: false
 thumbnail: "/images/kiva-networks/network.png"
 alias: /work/kiva-networks/
 metadata_only: false
-tags: Machine Learning
+tags: Machine Learning, Data-Scientist
 abstract:
 |
-   This study looks at how the lender network of Kiva based on the team membership correlates with the fulfillment of loans and the outcomes of the fulfilled loans. In particular, we are interested in predicting (1) how soon a loan is funded, as well as (2) whether the loan gets funded by the deadline.
+  Can lender networks of Kiva based on the team membership predict (1) how soon a loan is funded, as well as (2) whether the loan gets funded by the deadline.
 bullets:
 |
     

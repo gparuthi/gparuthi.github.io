@@ -195,12 +195,15 @@ legend {
   font-size: 120%;
   color: #585857; 
 }
-.bigText>.description{
+.iamText{
   color: gray;
 }
 
 .publicationText {
     font-size: 12px;
+}
+.mdl-button {
+  font-size: 20.2px
 }
 
 .publicationText :after {
@@ -440,9 +443,6 @@ table {
   margin-left: 1rem;
   /* aligned with paragraph edge */ }
 
-  .bigText>.description {
-    display: block;
-  }
   .bigText>.selectable {
     /*font-size: medium;*/
   }

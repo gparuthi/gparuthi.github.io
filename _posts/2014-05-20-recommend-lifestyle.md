@@ -5,7 +5,7 @@ featured: false
 thumbnail: "/images/pcbc/Computadoras_y_Obesidad.jpg"
 alias: /work/recommend-lifestyle/
 metadata_only: true
-tags: HCI, UbiComp, Health
+tags: HCI, UbiComp, Health, HCI-Researcher
 abstract:
 |
    Modeling people's context, habits, lifestyles, wellness goals and their achievements and failures allow interventions that are personalized to the needs of the individual. 
