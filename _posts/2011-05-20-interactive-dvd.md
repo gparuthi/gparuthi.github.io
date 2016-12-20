@@ -10,7 +10,7 @@ abstract:
     Leveraged the capabilities of the standard DVD player to view interactive educational content like Wikipedia, children books and slides.
 bullets:
 |
-    - [[T4E 2012]](/files/dvds-t4e.pdf) [[ICTD 2010]](http://research.microsoft.com/en-us/um/people/thies/thies-ictd10.pdf) [[CHI 2011 (Top5%)]](http://www.academia.edu/3827799/Utilizing_DVD_Players_as_Low-Cost_Of_ine_Internet_Browsers)
+    [T4E 2012](/files/dvds-t4e.pdf), [ICTD 2010](http://research.microsoft.com/en-us/um/people/thies/thies-ictd10.pdf), [CHI 2011 (Top5%)](http://www.academia.edu/3827799/Utilizing_DVD_Players_as_Low-Cost_Of_ine_Internet_Browsers)
 
 publications:
     T4E-2012:
@@ -25,7 +25,9 @@ publications:
             <br />
             T4E 2012
             <br />
-            \[[pdf](/files/dvds-t4e.pdf)\]
+        file:
+        |   
+            /files/dvds-t4e.pdf
     CHI-2011:
         image:
             "/images/interactive-dvd/htmlDVD_ui1.jpg"
@@ -38,7 +40,9 @@ publications:
             <br />
             CHI 2011
             <br />
-            \[[pdf](http://www.academia.edu/3827799/Utilizing_DVD_Players_as_Low-Cost_Of_ine_Internet_Browsers)\]
+        file:
+        |   
+            http://www.academia.edu/3827799/Utilizing_DVD_Players_as_Low-Cost_Of_ine_Internet_Browsers
     ICTD-2010:
         image: /images/interactive-dvd/interactiveDvd_classroom.jpg
         info:
@@ -51,7 +55,9 @@ publications:
             <br />
             ICTD 2010
             <br />
-            \[[pdf](http://research.microsoft.com/en-us/um/people/thies/thies-ictd10.pdf)\]
+        file:
+        |   
+            http://research.microsoft.com/en-us/um/people/thies/thies-ictd10.pdf
 ---
 
 ## Abstract

@@ -192,20 +192,31 @@ legend {
 */
 
 .bigText {
-  font: 120%/1.5 'Merriweather', serif;
-  text-rendering: optimizeLegibility;
-  color: #585857; }
+  font-size: 120%;
+  color: #585857; 
+}
 .bigText>.description{
   color: gray;
 }
 
+.publicationText {
+    font-size: 12px;
+}
+
+.publicationText :after {
+    content: "\00a0\00a0";
+}
+
+.publicationText>a:not(:hover) {
+  color: #4c93b5; }
+
 html, body {
-  font: 105%/1.5 'Merriweather', serif;
+  font: 17.5px/1.5 'Merriweather', serif;
   text-rendering: optimizeLegibility;
   color: #585857; }
 
 .container {
-  max-width: 960px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 30px;
   padding: 0 1.5rem; }
@@ -280,6 +291,10 @@ h1, h2, h3, h4, .header, .footer, .publication, .sans {
 
 h1, h2, h3, h4 {
   color: #3f3f3e; }
+
+h4 {
+  line-height: 1.5em;
+}
 
 h1 p, h2 p, h3 p {
   margin: 0; }
@@ -361,9 +376,9 @@ hr {
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-.publication div {
-  display: inline-block;
-  vertical-align: top; }
+.publication {
+  font-size: 14px;
+}
 
 .header {
   margin-top: 1em; }

@@ -13,10 +13,10 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
 <a href="mailto:gparuthi@umich.edu"><i class="fa fa-send"></i></a> ·
                 <a href="https://github.com/gparuthi/"><i class="fa fa-github"></i></a> ·
                 <a href="http://www.linkedin.com/in/gparuthi"><i class="fa fa-linkedin"></i></a> ·
-                <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en">Google Scholar</a> 
+                <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a> 
 
 {:.bigText}
-<span class="description">Who am I?</span> <span class="selectable">Engineer, Designer, Researcher, Data-Scientist</span>  
+<span class="description" markdown="1">`I am...`</span> <span class="selectable" markdown="1">`Engineer, Designer, HCI-Researcher, Data-Scientist`</span>  
 
 <div class="grid">
 
@@ -46,16 +46,17 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                     <span markdown="1"><a href="{{ url }}">{{ post.title }}</a></span>
                 {% endif %}
                 </h4>
-                {% if post.tags %}
-                    {% for tag in post.tags %}
-                    <span class='tags'>{{ tag }}</span>
-                    {% endfor %}
+                {% if post.publications %}
+                <span class="publicationText bgText"><i class="fa fa-graduation-cap"></i></span>
+                {% for publication in post.publications %}
+                    {% if publication[1].file %}
+                   <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                   {% endif %}
+                {% endfor %}
                 {% endif %}
+
                 {% if post.abstract %}
                     {{ post.abstract | markdownify }}
-                {% endif %}
-                {% if post.bullets %}
-                    {{ post.bullets | markdownify }}
                 {% endif %}
                 </div>
                 </li>
@@ -74,7 +75,8 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
 
                 <li tags= "{{ post.tags }}">
                 {% if post.thumbnail %}
-                    <img src="{{ post.thumbnail }}" width="180px">
+                    <a href="{{ url }}">
+                    <img src="{{ post.thumbnail }}" width="180px"></a>
                 {% endif %}
 
                 <div>
@@ -85,22 +87,21 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
                     <span markdown="1"><a href="{{ url }}">{{ post.title }}</a></span>
                 {% endif %}
                 </h4>
-                {% if post.tags %}
-                    {% for tag in post.tags %}
-                    <span class='tags'>{{ tag }}</span>
-                    {% endfor %}
+                {% if post.publications %}
+                <span class="publicationText bgText"><i class="fa fa-graduation-cap"></i></span>
+                {% for publication in post.publications %}
+                   <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                {% endfor %}
                 {% endif %}
+
                 {% if post.abstract %}
                     {{ post.abstract | markdownify }}
-                {% endif %}
-                {% if post.bullets %}
-                    {{ post.bullets | markdownify }}
                 {% endif %}
                 </div>
                 </li>
             {% endif %}
-            
         {% endfor %}
+        
         </ul>
     </div>
 
