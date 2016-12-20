@@ -18,8 +18,43 @@ My work centers around context-aware computing. Check out my [CV]("https://rawgi
 
 <projects></projects>
 
-<div class="grid">
+<div class="grid projectGrid">
+    <div class="unit notes">
+        <ul class="projects">
+        <div class="mdl-grid">
+        {% for post in site.posts %}
 
+            {% capture url %}
+                    {% if post contains 'actual_url' %}
+                        {{ post.actual_url }}
+                    {% else %}
+                        {{ post.url }}
+                    {% endif %}
+                {% endcapture %}
+                <div class="mdl-cell" data-tags= "{{ post.tags }}">
+                  {% if post.thumbnail %}
+                        <a href="{{ url }}">
+                        <img src="{{ post.thumbnail }}" width="100%"></a>
+                    {% endif %}
+                    
+                    <div class="thumbnailTitle">
+                    {% if post.metadata_only %}
+                    <span  markdown="1">{{ post.title }} </span>
+                    {% else %}
+                        <span markdown="1"><a href="{{ url }}">{{ post.title }}</a></span>
+                    {% endif %}
+                    </div>
+                    
+                </div>
+
+        {% endfor %}
+          
+        </div>
+        </ul>
+    </div>
+</div>
+
+<div class="grid projectDetails">
     <div class="unit notes">
         <ul class="projects">
         {% for post in site.posts %}

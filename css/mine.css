@@ -416,11 +416,18 @@ h5 {
   max-height: 350px;
   float: right; }
 
-table {
-  width: 670px;
-  margin-top: 2em;
-  margin-bottom: 3em; }
+.projectGrid {
+  min-height: 600px;
+}
+.projectDetails {
+  min-height: 600px;
+  display: none;
+}
 
+.thumbnailTitle {
+  font-size: 13px;
+  text-align: center;
+}
 /* If iPhone size, display images and text on different lines. */
 @media screen and (max-width: 420px) {
   ul.projects li {
@@ -446,6 +453,18 @@ table {
   .bigText>.selectable {
     /*font-size: medium;*/
   }
+
+  .mdl-cell {
+    margin: 8px;
+    width: calc(50% - 16px);
+  }
+  .thumbnailTitle {
+      text-overflow: ellipsis;
+    max-height: 35px;
+    line-height: 18px;
+    overflow: hidden;
+  }
+
 }
 aside {
   margin-left: 700px;
