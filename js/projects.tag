@@ -1,7 +1,7 @@
 <projects>
 	<div>
 		<div class="iamText" >I am...</div> 
-		<div class="mdl-grid">
+		<div id="iamTypes" class="mdl-grid">
 			<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
 				{label}
 			</button>
@@ -20,6 +20,7 @@
 	self.gridViewToggle = true 
 
 	clickAction(e){
+		self._scrollToTop()
 		e.item.isSelected=!e.item.isSelected
 		var label = e.item.label
 
@@ -45,10 +46,16 @@
 		
 
 	}
+	_scrollToTop(){
+		$('html, body').animate({
+		        scrollTop: $("#iamTypes").offset().top
+		    }, 1000);
+	}
 	toggleGridView(){
 		self.gridViewToggle = !self.gridViewToggle
 		$('.projectGrid').toggle()
 		$('.projectDetails').toggle()
+		self._scrollToTop()
 	}
 </script>
 <style scoped>
