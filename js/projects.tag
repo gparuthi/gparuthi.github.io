@@ -43,6 +43,7 @@
 
 		$('.projects .mdl-cell').each(filterElements)
 		$('.projects li').each(filterElements)
+		$('.mdl-button').removeClass("ui-state-hover");
 		
 
 	}
@@ -59,9 +60,13 @@
 	}
 </script>
 <style scoped>
-	.isSelected{
-		background-color: aliceblue;
+	.mdl-button:hover{
+		background-color: transparent ;
 	}
+	.isSelected{
+		background-color: aliceblue !important;
+	}
+	
 </style>
 
 </projects>
