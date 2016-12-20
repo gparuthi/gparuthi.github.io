@@ -1,4 +1,5 @@
 [mwn]: http://mwnewman.people.si.umich.edu/
+[yj]: http://people.cs.nctu.edu.tw/~armuro/research.html
 [gp]: http://gauravparuthi.com
 [cch]: http://cchuang.info
 [bt]: http://research.microsoft.com/en-us/um/people/thies/
