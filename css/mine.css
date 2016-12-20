@@ -418,6 +418,7 @@ h5 {
 
 .projectGrid {
   min-height: 600px;
+  display: none;
 }
 .projectDetails {
   min-height: 600px;

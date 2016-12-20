@@ -1,23 +1,40 @@
 <projects>
+<div style="display: none;" id="projectsContainer">
 	<div>
-		<div class="iamText" >I am...</div> 
-		<div id="iamTypes" class="mdl-grid">
-			<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
-				{label}
-			</button>
+			<div class="iamText" >I am...</div> 
+			<div id="iamTypes" class="mdl-grid">
+				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
+					{label}
+				</button>
+			</div>
 		</div>
-	</div>
-	<div style="text-align: center; color: #ccc" onclick={toggleGridView} >
-		<i if={!gridViewToggle} class="fa fa-list" aria-hidden="true"></i>
-		<i if={gridViewToggle} class="fa fa-th" aria-hidden="true"></i>
-	</div>
+		<div style="text-align: center; color: #ccc" onclick={toggleGridView} >
+			<i if={!gridViewToggle} class="fa fa-list" aria-hidden="true"></i>
+			<i if={gridViewToggle} class="fa fa-th" aria-hidden="true"></i>
+		</div>
+		
+		<p></p>
 	
-	<p></p>
+</div>
+	
 <script>
 	var self= this
 	projectsTag = this
 	this.tags = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
 	self.gridViewToggle = true 
+
+	this.on("mount", function(){
+		$('#projectsContainer').fadeIn(1000)
+		if(Math.round(Math.random())){
+			$('.projectGrid').fadeIn(1500)
+			self.gridViewToggle = true 
+		} else {
+			$('.projectDetails').fadeIn(1500)
+			self.gridViewToggle = false 
+		}
+		self.update()
+
+		})
 
 	clickAction(e){
 		self._scrollToTop()
