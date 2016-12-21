@@ -7,7 +7,7 @@ layout: default
 I am a PhD candidate in the [School of Information](http://si.umich.edu) at University of Michigan, advised by [Prof. Mark Newman](http://mwnewman.people.si.umich.edu/).
 
 {:.bigText} 
-My work centers around context-aware computing. Check out my [CV]("https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf") and Projects below.
+My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and Projects below.
 
 {:.bigText}
 <a href="mailto:gparuthi@umich.edu"><i class="fa fa-send"></i></a> ·
