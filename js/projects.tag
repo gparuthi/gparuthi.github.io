@@ -22,6 +22,7 @@
 	projectsTag = this
 	this.tags = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
 	self.gridViewToggle = true 
+	self.firstTime = true
 
 	this.on("mount", function(){
 		$('#projectsContainer').fadeIn(1000)
@@ -38,31 +39,41 @@
 
 	clickAction(e){
 		self._scrollToTop()
-		e.item.isSelected=!e.item.isSelected
 		var label = e.item.label
+
+		if (self.firstTime)
+		{
+			// select this and unselect all others
+			_.each(self.tags, function(tag){
+				if (tag.label != label){
+					tag.isSelected = false
+				}
+			})
+
+			self.firstTime = false
+		} else {
+			e.item.isSelected=!e.item.isSelected
+		}
 
 		var selectedLabels =  _.chain(self.tags).filter('isSelected').pluck('label').value()
 
+			var filterElements = function(k,v){
+				// var v = eles[i]
+				var tags = v.getAttribute('data-tags').split(',')
+				goodtag = _.some(tags, function(tag){
+					return _.contains(selectedLabels,tag)
+				})
+				
+				if (goodtag)
+					v.style.display = 'block'
+				else
+					v.style.display = 'none'
+			}
+
+			$('.projects .mdl-cell').each(filterElements)
+			$('.projects li').each(filterElements)
+			$('.mdl-button').removeClass("ui-state-hover");
 		
-
-		var filterElements = function(k,v){
-			// var v = eles[i]
-			var tags = v.getAttribute('data-tags').split(',')
-			goodtag = _.some(tags, function(tag){
-				return _.contains(selectedLabels,tag)
-			})
-			
-			if (goodtag)
-				v.style.display = 'block'
-			else
-				v.style.display = 'none'
-		}
-
-		$('.projects .mdl-cell').each(filterElements)
-		$('.projects li').each(filterElements)
-		$('.mdl-button').removeClass("ui-state-hover");
-		
-
 	}
 	_scrollToTop(){
 		$('html, body').animate({
