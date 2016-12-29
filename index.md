@@ -7,7 +7,7 @@ layout: default
 I am a PhD candidate in the [School of Information](http://si.umich.edu) at University of Michigan, advised by [Prof. Mark Newman](http://mwnewman.people.si.umich.edu/).
 
 {:.bigText} 
-My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and Projects below.
+My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and some selected projects below.
 
 {:.bigText}
 <a href="mailto:gparuthi@umich.edu"><i class="fa fa-send"></i></a> ·
@@ -33,16 +33,24 @@ My work centers around context-aware computing. Check out my [CV](https://rawgit
                 {% endcapture %}
                 <div class="mdl-cell" data-tags= "{{ post.tags }}">
                   {% if post.thumbnail %}
+                  {% if post.metadata_only %}
+                        <img src="{{ post.thumbnail }}" width="100%">
+                    {% else %}
                         <a href="{{ url }}">
                         <img src="{{ post.thumbnail }}" width="100%"></a>
                     {% endif %}
+
+                        
+                    {% endif %}
                     
                     <div class="thumbnailTitle">
+                    
                     {% if post.metadata_only %}
                     <span  markdown="1">{{ post.title }} </span>
                     {% else %}
                         <span markdown="1"><a href="{{ url }}">{{ post.title }}</a></span>
                     {% endif %}
+
                     </div>
                     
                 </div>
