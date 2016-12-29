@@ -16,7 +16,9 @@
 		<p></p>
 	
 </div>
-	
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 <script>
 	var self= this
 	projectsTag = this
@@ -64,15 +66,18 @@
 					return _.contains(selectedLabels,tag)
 				})
 				
-				if (goodtag)
+				if (goodtag){
 					v.style.display = 'block'
-				else
+					$(v).addClass('animated fadeIn')
+				}
+				else{
 					v.style.display = 'none'
+				}
 			}
 
 			$('.projects .mdl-cell').each(filterElements)
 			$('.projects li').each(filterElements)
-			$('.mdl-button').removeClass("ui-state-hover");
+			$('.mdl-button').removeClass("ui-state-hover")
 		
 	}
 	_scrollToTop(){
