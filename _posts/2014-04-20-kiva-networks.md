@@ -5,7 +5,7 @@ featured: false
 thumbnail: "/images/kiva-networks/network.png"
 alias: /work/kiva-networks/
 metadata_only: false
-tags: Machine Learning, Data-Scientist
+tags: Machine Learning, Data-Scientist, ICTD
 abstract:
 |
   Can lender networks of Kiva based on the team membership predict (1) how soon a loan is funded, as well as (2) whether the loan gets funded by the deadline.

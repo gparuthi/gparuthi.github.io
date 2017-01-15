@@ -4,7 +4,7 @@ category: academic
 featured: true
 thumbnail: /images/pcbc/walking.jpg
 alias: /work/crowd_generated/
-tags: Engineer, HCI-Researcher
+tags: Engineer, HCI-Researcher, Crowd-Sourcing
 abstract:
 |
     Crowdsourcing system that enables paid crowd workers to create context-appropriate behavior messages.

@@ -1,7 +1,7 @@
 <projects>
 <div style="display: none;" id="projectsContainer">
 	<div>
-			<div class="iamText" >I am...</div> 
+			<div class="iamText" onclick={toggleIamInterests}><span class={strong: iamInterestsToggle}>I am...</span> / <span class={strong: !iamInterestsToggle}>My interests...</span></div> 
 			<div id="iamTypes" class="mdl-grid">
 				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
 					{label}
@@ -22,22 +22,35 @@
 <script>
 	var self= this
 	projectsTag = this
-	this.tags = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
+	this.iamTypes = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
+	this.interestTypes = [{label: 'Ubicomp', isSelected: true}, {label: 'ICTD', isSelected: true}, {label: 'Crowd-Sourcing', isSelected: true}, {label: 'Social', isSelected: true}]
+	this.tags = this.iamTypes
+	this.iamInterestsToggle = true
 	self.gridViewToggle = true 
 	self.firstTime = true
 
 	this.on("mount", function(){
 		$('#projectsContainer').fadeIn(1000)
-		if(Math.round(Math.random())){
-			$('.projectGrid').fadeIn(1500)
-			self.gridViewToggle = true 
-		} else {
-			$('.projectDetails').fadeIn(1500)
-			self.gridViewToggle = false 
-		}
+		if(Math.round(Math.random()))
+			self.toggleIamInterests()		
+
+		if(Math.round(Math.random()))
+			self.gridViewToggle= false
+			
+		
+		self.toggleGridView() 
 		self.update()
 
 		})
+
+	toggleIamInterests(){
+		this.iamInterestsToggle = !this.iamInterestsToggle
+		if (this.iamInterestsToggle)
+			this.tags = this.iamTypes
+		else
+			this.tags = this.interestTypes
+		// self.update()
+	}
 
 	clickAction(e){
 		self._scrollToTop()
@@ -82,13 +95,19 @@
 	}
 	_scrollToTop(){
 		$('html, body').animate({
-		        scrollTop: $("#iamTypes").offset().top
+		        scrollTop: $("#iamTypes").offset().top-30
 		    }, 1000);
 	}
 	toggleGridView(){
 		self.gridViewToggle = !self.gridViewToggle
-		$('.projectGrid').toggle()
-		$('.projectDetails').toggle()
+		if (self.gridViewToggle){
+			$('.projectGrid').toggle(true)
+			$('.projectDetails').toggle(false)
+		}
+		else {
+			$('.projectGrid').toggle(false)
+			$('.projectDetails').toggle(true)
+				}
 		self._scrollToTop()
 	}
 </script>
@@ -99,6 +118,12 @@
 	.isSelected{
 		background-color: aliceblue !important;
 	}
+	.iamText{
+	  color: lightgray;
+	}
+	.strong {
+		color: black;
+  font-weight: bold; }
 	
 </style>
 

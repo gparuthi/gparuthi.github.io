@@ -5,7 +5,7 @@ featured: true
 thumbnail: "/images/contexthealth/cover.png"
 alias: /work/recommend-lifestyle/
 metadata_only: false
-tags: HCI, UbiComp, Health, HCI-Researcher
+tags: HCI, Ubicomp, Health, HCI-Researcher
 abstract:
 |
    Modeling people's context, habits, lifestyles, wellness goals and their achievements and failures allow interventions that are personalized to the needs of the individual. 

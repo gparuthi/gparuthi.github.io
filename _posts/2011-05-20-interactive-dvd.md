@@ -4,7 +4,7 @@ category: academic
 featured: true
 thumbnail: /images/interactive-dvd/interactiveDvd.jpg
 alias: /work/interactive-dvd/
-tags: HCI-Researcher, Designer, Engineer
+tags: HCI-Researcher, Designer, Engineer, ICTD
 abstract:
 |
     Leveraged the capabilities of the standard DVD player to view interactive educational content like Wikipedia, children books and slides.
