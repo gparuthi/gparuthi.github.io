@@ -56,18 +56,21 @@
 		self._scrollToTop()
 		var label = e.item.label
 
-		if (self.firstTime)
+		if (self.cntrlIsPressed )
 		{
+			e.item.isSelected=!e.item.isSelected
+			
+
+			// self.firstTime = false
+		} else {
 			// select this and unselect all others
 			_.each(self.tags, function(tag){
-				if (tag.label != label){
+				if (tag.label != label)
 					tag.isSelected = false
-				}
+				else 
+					tag.isSelected = true
 			})
-
-			self.firstTime = false
-		} else {
-			e.item.isSelected=!e.item.isSelected
+			
 		}
 
 		var selectedLabels =  _.chain(self.tags).filter('isSelected').pluck('label').value()
@@ -96,7 +99,7 @@
 	_scrollToTop(){
 		$('html, body').animate({
 		        scrollTop: $("#iamTypes").offset().top-30
-		    }, 1000);
+		    }, 300);
 	}
 	toggleGridView(){
 		self.gridViewToggle = !self.gridViewToggle
@@ -110,6 +113,18 @@
 				}
 		self._scrollToTop()
 	}
+
+	$(document).keydown(function(event){
+		// console.log(event.which);
+	    if(event.which=="91")
+	        self.cntrlIsPressed = true;
+	});
+
+	$(document).keyup(function(){
+	    self.cntrlIsPressed = false;
+	});
+
+	self.cntrlIsPressed = false;
 </script>
 <style scoped>
 	.mdl-button:hover{
