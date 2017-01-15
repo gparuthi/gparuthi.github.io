@@ -5,7 +5,7 @@ featured: false
 thumbnail: "/images/gmoney/car.png"
 alias: /work/recommend-lifestyle/
 metadata_only: false
-tags: Machine Learning, Data-Scientist, ICTD
+tags: Machine Learning, Data-Scientist
 abstract:
 |
    We show that the beliefs of informed investors can be learned during earning conference calls. This can be used to explain variations in stock price performance not accountable by current asset pricing theory.
