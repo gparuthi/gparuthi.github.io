@@ -23,7 +23,7 @@
 	var self= this
 	projectsTag = this
 	this.iamTypes = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
-	this.interestTypes = [{label: 'Ubicomp', isSelected: true}, {label: 'ICTD', isSelected: true}, {label: 'Crowd-Sourcing', isSelected: true}, {label: 'Social', isSelected: true}]
+	this.interestTypes = [{label: 'Ubicomp', isSelected: true}, {label: 'ICTD', isSelected: true}, {label: 'Crowd-Sourcing', isSelected: true}, {label: 'Social-Computing', isSelected: true}]
 	this.tags = this.iamTypes
 	this.iamInterestsToggle = true
 	self.gridViewToggle = true 
@@ -116,7 +116,7 @@
 
 	$(document).keydown(function(event){
 		// console.log(event.which);
-	    if(event.which=="91")
+	    if(event.which=="91" || event.which=="17")
 	        self.cntrlIsPressed = true;
 	});
 
@@ -134,10 +134,11 @@
 		background-color: aliceblue !important;
 	}
 	.iamText{
+		text-align: center;
 	  color: lightgray;
 	}
 	.strong {
-		color: black;
+		color: gray;
   font-weight: bold; }
 	
 </style>

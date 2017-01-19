@@ -4,7 +4,7 @@ category: other
 featured: true
 thumbnail: "/images/stonesoup/deployment.jpg"
 alias: /work/stonesoup/
-tags: HCI, Ubicomp, CSCW, Designer, Engineer, HCI-Researcher, Social
+tags: HCI, Ubicomp, CSCW, Designer, Engineer, HCI-Researcher, Social-Computing
 abstract:
 |
     A community driven proactive display system that allows personalization of content.
