@@ -452,10 +452,6 @@ h5 {
     /*font-size: medium;*/
   }
 
-  .mdl-cell {
-    margin: 8px;
-    width: calc(50% - 16px);
-  }
   .thumbnailTitle {
       text-overflow: ellipsis;
     max-height: 35px;

@@ -1,7 +1,7 @@
 <projects>
 <div style="display: none;" id="projectsContainer">
 	<div>
-			<div class="iamText" onclick={toggleIamInterests}><span class={strong: iamInterestsToggle}>I am...</span> / <span class={strong: !iamInterestsToggle}>My interests...</span></div> 
+			<div class="iamText" ><span onclick={showIamtypes } class={strong: iamInterestsToggle}>I am...</span> / <span class={strong: !iamInterestsToggle} onclick={showInterests}>My interests...</span></div> 
 			<div id="iamTypes" class="mdl-grid">
 				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
 					{label}
@@ -24,7 +24,7 @@
 	projectsTag = this
 	this.iamTypes = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
 	this.interestTypes = [{label: 'Ubicomp', isSelected: true}, {label: 'ICTD', isSelected: true}, {label: 'Crowd-Sourcing', isSelected: true}, {label: 'Social-Computing', isSelected: true}]
-	this.tags = this.iamTypes
+	this.tags = JSON.parse(JSON.stringify(this.iamTypes))
 	this.iamInterestsToggle = true
 	self.gridViewToggle = true 
 	self.firstTime = true
@@ -32,7 +32,7 @@
 	this.on("mount", function(){
 		$('#projectsContainer').fadeIn(1000)
 		if(Math.round(Math.random()))
-			self.toggleIamInterests()		
+			self.showInterests()		
 
 		if(Math.round(Math.random()))
 			self.gridViewToggle= false
@@ -43,13 +43,14 @@
 
 		})
 
-	toggleIamInterests(){
-		this.iamInterestsToggle = !this.iamInterestsToggle
-		if (this.iamInterestsToggle)
-			this.tags = this.iamTypes
-		else
-			this.tags = this.interestTypes
-		// self.update()
+	
+	showInterests(){
+		this.iamInterestsToggle = false
+		this.tags = JSON.parse(JSON.stringify(this.interestTypes))
+	}
+	showIamtypes(){
+		this.iamInterestsToggle = true
+		this.tags = JSON.parse(JSON.stringify(this.iamTypes))
 	}
 
 	clickAction(e){
