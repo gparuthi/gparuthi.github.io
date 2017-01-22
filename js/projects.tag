@@ -9,8 +9,8 @@
 			</div>
 		</div>
 		<div style="text-align: center; color: #ccc" onclick={toggleGridView} >
-			<i if={!gridViewToggle} class="fa fa-list" aria-hidden="true"></i>
-			<i if={gridViewToggle} class="fa fa-th" aria-hidden="true"></i>
+			<span class={strong: !gridViewToggle}><i class="fa fa-list" aria-hidden="true"></i></span>
+			<span class={strong: gridViewToggle}><i class="fa fa-th" aria-hidden="true"></i></span>
 		</div>
 		
 		<p></p>
@@ -137,6 +137,7 @@
 	.iamText{
 		text-align: center;
 	  color: lightgray;
+	  font-size: 20px;
 	}
 	.strong {
 		color: gray;

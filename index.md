@@ -8,27 +8,26 @@ layout: default
   <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
  I am a PhD candidate in the [School of Information](http://si.umich.edu) at University of Michigan, advised by [Prof. Mark Newman](http://mwnewman.people.si.umich.edu/).
-
  </div>
 
  </div>
  <div class="mdl-grid">
  <div class="mdl-cell mdl-cell--12-col" markdown="1">
 {:.bigText} 
-My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and some selected projects below.
-
-
- </div>
-</div>
-
-
-
+My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and selected projects below.
 
 {:.bigText}
 <a href="mailto:gparuthi@umich.edu"><i class="fa fa-send"></i></a> ·
                 <a href="https://github.com/gparuthi/"><i class="fa fa-github"></i></a> ·
                 <a href="http://www.linkedin.com/in/gparuthi"><i class="fa fa-linkedin"></i></a> ·
                 <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a> 
+ </div>
+</div>
+
+
+
+
+
 
 
 <projects></projects>
