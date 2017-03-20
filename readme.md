@@ -4,7 +4,7 @@ This site is built using Jekyll.
 Everything is a post, but some posts only have metadata.
 Forked from sergeyk/sergeyk.github.com
 
-If you plan to use it send me a hi :)
+If you plan to use this, do send me a hi :)
 
 ## License
 

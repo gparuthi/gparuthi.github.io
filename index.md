@@ -7,14 +7,12 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.jpg" width="100%"/></div>
   <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
- I am a PhD candidate in the [School of Information](http://si.umich.edu) at University of Michigan, advised by [Prof. Mark Newman](http://mwnewman.people.si.umich.edu/).
+ I am Gaurav Paruthi. My research centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and selected projects below.
  </div>
 
  </div>
  <div class="mdl-grid">
- <div class="mdl-cell mdl-cell--12-col" markdown="1">
-{:.bigText} 
-My work centers around context-aware computing. Check out my [CV](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and selected projects below.
+ <div class="mdl-cell mdl-cell--12-col" style="text-align: center;" markdown="1">
 
 {:.bigText}
 <a href="mailto:gparuthi@umich.edu"><i class="fa fa-send"></i></a> ·

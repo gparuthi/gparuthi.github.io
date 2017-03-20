@@ -1,16 +1,12 @@
 <projects>
 <div style="display: none;" id="projectsContainer">
 	<div>
-			<div class="iamText" ><span onclick={showIamtypes } class={strong: iamInterestsToggle}>I am...</span> / <span class={strong: !iamInterestsToggle} onclick={showInterests}>My interests...</span></div> 
+			
 			<div id="iamTypes" class="mdl-grid">
 				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
 					{label}
 				</button>
 			</div>
-		</div>
-		<div style="text-align: center; color: #ccc" onclick={toggleGridView} >
-			<span class={strong: !gridViewToggle}><i class="fa fa-list" aria-hidden="true"></i></span>
-			<span class={strong: gridViewToggle}><i class="fa fa-th" aria-hidden="true"></i></span>
 		</div>
 		
 		<p></p>
@@ -31,14 +27,14 @@
 
 	this.on("mount", function(){
 		$('#projectsContainer').fadeIn(1000)
-		if(Math.round(Math.random()))
-			self.showInterests()		
+		// if(Math.round(Math.random()))
+			// self.showInterests()		
 
-		if(Math.round(Math.random()))
-			self.gridViewToggle= false
+		// if(Math.round(Math.random()))
+			self.gridViewToggle= true
 			
 		
-		self.toggleGridView() 
+		self.toggleGridView(false) 
 		self.update()
 
 		})
@@ -54,7 +50,7 @@
 	}
 
 	clickAction(e){
-		self._scrollToTop()
+		// self._scrollToTop()
 		var label = e.item.label
 
 		if (self.cntrlIsPressed )
@@ -102,7 +98,7 @@
 		        scrollTop: $("#iamTypes").offset().top-30
 		    }, 300);
 	}
-	toggleGridView(){
+	toggleGridView(scroll){
 		self.gridViewToggle = !self.gridViewToggle
 		if (self.gridViewToggle){
 			$('.projectGrid').toggle(true)
@@ -112,7 +108,8 @@
 			$('.projectGrid').toggle(false)
 			$('.projectDetails').toggle(true)
 				}
-		self._scrollToTop()
+		// if (!scroll)
+		// 	self._scrollToTop()
 	}
 
 	$(document).keydown(function(event){

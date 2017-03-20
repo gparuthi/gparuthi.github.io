@@ -193,6 +193,7 @@ legend {
 
 .bigText {
   font-size: 120%;
+  font-family: "Merriweather", sans-serif;
   color: #585857; 
 }
 
@@ -211,7 +212,7 @@ legend {
   color: #4c93b5; }
 
 html, body {
-  font: 17.5px/1.5 'Merriweather', serif;
+  font: 17.5px/1.5 "source-sans-pro", sans-serif;
   text-rendering: optimizeLegibility;
   color: #585857; }
 
@@ -302,7 +303,7 @@ h1 p, h2 p, h3 p {
 p, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption {
   font-size: 0.94em;
   /* equiv 16px */
-  line-height: 1.5em;
+  line-height: 2em;
   margin: 0 0 1.5em 0; }
 
 h1, .h1-like {
