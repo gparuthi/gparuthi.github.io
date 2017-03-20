@@ -3,7 +3,7 @@
 	<div>
 			
 			<div id="iamTypes" class="mdl-grid">
-				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={tags} onclick={clickAction} >
+				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={filterTags} onclick={clickAction} >
 					{label}
 				</button>
 			</div>
@@ -20,7 +20,7 @@
 	projectsTag = this
 	this.iamTypes = [{label: 'Engineer', isSelected: true}, {label: 'Designer', isSelected: true}, {label: 'HCI-Researcher', isSelected: true}, {label: 'Data-Scientist', isSelected: true}]
 	this.interestTypes = [{label: 'Ubicomp', isSelected: true}, {label: 'ICTD', isSelected: true}, {label: 'Crowd-Sourcing', isSelected: true}, {label: 'Social-Computing', isSelected: true}]
-	this.tags = JSON.parse(JSON.stringify(this.iamTypes))
+	this.filterTags = JSON.parse(JSON.stringify(this.iamTypes))
 	this.iamInterestsToggle = true
 	self.gridViewToggle = true 
 	self.firstTime = true
@@ -42,11 +42,11 @@
 	
 	showInterests(){
 		this.iamInterestsToggle = false
-		this.tags = JSON.parse(JSON.stringify(this.interestTypes))
+		this.filterTags = JSON.parse(JSON.stringify(this.interestTypes))
 	}
 	showIamtypes(){
 		this.iamInterestsToggle = true
-		this.tags = JSON.parse(JSON.stringify(this.iamTypes))
+		this.filterTags = JSON.parse(JSON.stringify(this.iamTypes))
 	}
 
 	clickAction(e){
@@ -61,7 +61,7 @@
 			// self.firstTime = false
 		} else {
 			// select this and unselect all others
-			_.each(self.tags, function(tag){
+			_.each(self.filterTags, function(tag){
 				if (tag.label != label)
 					tag.isSelected = false
 				else 
@@ -70,7 +70,7 @@
 			
 		}
 
-		var selectedLabels =  _.chain(self.tags).filter('isSelected').pluck('label').value()
+		var selectedLabels =  _.chain(self.filterTags).filter('isSelected').pluck('label').value()
 
 			var filterElements = function(k,v){
 				// var v = eles[i]

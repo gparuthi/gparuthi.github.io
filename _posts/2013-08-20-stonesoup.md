@@ -8,6 +8,15 @@ tags: HCI, Ubicomp, CSCW, Designer, Engineer, HCI-Researcher, Social-Computing
 abstract:
 |
     A community driven proactive display system that allows personalization of content.
+awards:
+    ExpoSItion-2014:
+        image: /images/stonesoup/deployment.jpg
+        info: 
+        |   
+            ** StoneSoup **
+        file:
+        |
+            #
 bullets:
 |
     - [[Poster]](https://rawgit.com/gparuthi/resume/master/resc/StoneSoupPoster.pdf) [[Extended Abstract]](https://rawgit.com/gparuthi/resume/master/resc/StoneSoup_ExtendedAbstract.pdf)

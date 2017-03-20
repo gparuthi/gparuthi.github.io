@@ -2,8 +2,8 @@
 ## Publications
 {% for publication in page.publications %}
 <div class="mdl-grid publication">
-    <div class="mdl-cell mdl-cell--3-col"><img src="{{ publication[1].image }}" width="100%" /></div>
-    <div class="mdl-cell mdl-cell--9-col">
+    <div class="mdl-cell mdl-cell--2-col"><img src="{{ publication[1].image }}" /></div>
+    <div class="mdl-cell mdl-cell--5-col">
     <span  markdown="1">{{ publication[1].info }} </span>
     {% if publication[1].file %}
    	 <span><a href="{{ publication[1].file }}">[PDF]</a></span>

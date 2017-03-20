@@ -196,7 +196,9 @@ legend {
   font-family: "Merriweather", sans-serif;
   color: #585857; 
 }
-
+.text-muted {
+    color: #777;
+}
 .publicationText {
     font-size: 12px;
 }
@@ -210,6 +212,10 @@ legend {
 
 .publicationText>a:not(:hover) {
   color: #4c93b5; }
+
+.publication img{
+  max-width: 100%;
+}
 
 html, body {
   font: 17.5px/1.5 "source-sans-pro", sans-serif;
