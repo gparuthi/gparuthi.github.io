@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.jpg" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
-  I am Gaurav Paruthi, a design technologist with a deep interest in solving hard problems with cutting edge technologies
+  I am Gaurav Paruthi, a design technologist with a deep interest in solving real-world problems with cutting edge technologies
  </div>
 
  </div>
@@ -25,7 +25,7 @@ layout: default
 
 
 
-<div>[Update] I am a summer fellow at <a href="https://medium.com/ideo-colab/welcome-2017-summer-fellows-dab36ea15a0d">IDEO Colab</a> in Cambridge. Super excited to meet new people and discover opportunities of collaboration. Please contact me if you wish to connect. </div>
+<div>[Update] I am a summer fellow at <a href="https://medium.com/ideo-colab/welcome-2017-summer-fellows-dab36ea15a0d">IDEO Colab</a> in Cambridge. Super excited to meet here and discover opportunities of collaboration. Please contact me if you wish to connect. </div>
 
 <br>
 
