@@ -25,7 +25,7 @@ layout: default
 
 
 
-<div>[Update] I am a summer fellow at <a href="https://medium.com/ideo-colab/welcome-2017-summer-fellows-dab36ea15a0d">IDEO Colab</a> in Cambridge. Super excited to meet here and discover opportunities of collaboration. Please contact me if you wish to connect. </div>
+<div>[Update] I am a summer fellow at <a href="https://medium.com/ideo-colab/welcome-2017-summer-fellows-dab36ea15a0d">IDEO Colab</a> in Cambridge. Super excited to meet people here and discover opportunities of collaboration. Please contact me if you wish to connect. </div>
 
 <br>
 
