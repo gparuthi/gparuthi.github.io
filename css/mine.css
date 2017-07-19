@@ -223,7 +223,7 @@ html, body {
   color: #585857; }
 
 .container {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 30px;
   padding: 0 1.5rem; }
@@ -272,7 +272,11 @@ ul.projects li {
     height: 180px;}
 
 ul.projects li img {
-  float: left; }
+  float: left; 
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+  
 
 ul.projects li div {
   margin-left: 200px; }
@@ -341,6 +345,9 @@ h3, .h3-like {
   /* equiv 14px */
   line-height: 1.7143em;
   margin-bottom: 1.7143em; }
+  .footer{
+    text-align: center;
+  }
 
 ul.projects ul {
   font-size: .875em;

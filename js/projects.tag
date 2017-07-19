@@ -136,10 +136,14 @@
 	  color: lightgray;
 	  font-size: 20px;
 	}
+	#iamTypes{
+		padding-left: 0px;
+
+	}
 	.strong {
 		color: gray;
   font-weight: bold; }
-	
+
 </style>
 
 </projects>
