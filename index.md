@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.jpg" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
-  I am Gaurav Paruthi, a design technologist with a deep interest in solving real-world problems with cutting edge technologies
+  I am Gaurav Paruthi, a design technologist with a deep interest in solving real-world problems with creative use of current technologies
  </div>
 
  </div>
