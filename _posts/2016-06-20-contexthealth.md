@@ -11,6 +11,7 @@ abstract:
    We propose the notion of "sweet spots" to encapsulate how particular contextual factors converge to create optimal states for performing physical activities.
 bullets:
 |
+    - [In Submission to IMWUT 2017]
     - [[CHI'14 Workshop Paper]](/files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf)
 publications:
     Under Sumbission:
