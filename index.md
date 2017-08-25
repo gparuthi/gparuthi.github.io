@@ -25,9 +25,9 @@ layout: default
 
 
 
-<!-- <div>[Update] I am at <a href="http://www.ideocolab.com/team">IDEO Colab</a> in Cambridge. Super excited to meet people here and discover opportunities of collaboration. Please contact me if you wish to connect. </div> -->
+<!-- <div>[Update] I am at <a href="http://www.ideocolab.com/team">IDEO Colab</a> in Cambridge. Super excited to meet people here and discover opportunities of collaboration. Please contact me if you wish to connect. </div> 
 
-<br>
+<br> -->
 
 <projects></projects>
 
