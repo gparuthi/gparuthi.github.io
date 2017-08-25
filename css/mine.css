@@ -274,7 +274,7 @@ ul.projects li {
 ul.projects li img {
   float: left; 
     -webkit-filter: sepia(60%); /* Safari 6.0 - 9.0 */
-    filter: sepia(60%);
+    filter: sepia(60%); 
 }
   
 
