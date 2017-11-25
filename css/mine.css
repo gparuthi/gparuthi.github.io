@@ -193,7 +193,7 @@ legend {
 
 .bigText {
   font-size: 120%;
-  /*font-family: "Merriweather", sans-serif;*/
+  font-family: Cera, Verdana, "Merriweather", sans-serif;
   color: #585857; 
 }
 .text-muted {
