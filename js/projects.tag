@@ -2,7 +2,7 @@
 <div style="display: none;" id="projectsContainer">
 	<div>
 			
-			<div id="iamTypes" class="mdl-grid">
+			<div if={hide} id="iamTypes" class="mdl-grid">
 				<button class={mdl-button:true, mdl-js-button:true, des:true, isSelected:isSelected} each={filterTags} onclick={clickAction} >
 					{label}
 				</button>
