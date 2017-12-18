@@ -20,10 +20,22 @@ layout: default
                 <a href="http://www.linkedin.com/in/gparuthi" title="LinkedIn"><i class="fa fa-linkedin"></i></a> ·
                 <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en" title="scholar"><i class="fa fa-graduation-cap"></i></a>  ·
                 <a href="https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf" title="resume"><i class="fa fa-file-text-o"></i></a>  
+</div>
+<div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
+## ABOUT ME
+
+  I am about to finish my Ph.D. in Human-Computer Interaction from the University of Michigan in the School of Information, where I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0). My research provides design principles for building context-aware systems for physical activity promotion. For my dissertation research, I worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0), [Ken Resnicow](https://sph.umich.edu/faculty-profiles/resnicow-ken.html), and [Natalie Colabianchi](http://www.kines.umich.edu/directory/faculty/natalie-colabianchi). In the past years, I had the opportunity to explore diverse domains such as the Internet of things, ICTD, social computing, and crowdsourcing. At Microsoft Research, I worked with [Bill Thies](http://billthies.net/) to build low-cost educational technology for under-resourced environments. As part of DOIIIT studio, I worked with [Roland Graf](http://assocreation.com/) on the [Internet of Shoes](http://assocreation.com/project/internet-of-shoes/). At Telefonica Research, I worked with [Vanessa Frias](http://www.vanessafriasmartinez.org/) to delve into the micro-lending behavior data from the Kiva website. At PARC, I worked with [Ashwin Ram](https://www.linkedin.com/in/ashwinram/), on building an intelligent assistant for physical activity promotion. At IDEO, I worked with the [Colab](http://www.ideocolab.com/) on projects related to Blockchains, and Smart Cities.
+  
+  The experience and skills that I acquired in the areas of HCI research, design, software engineering and machine learning allow me to work with individuals with diverse expertise and backgrounds. As I finish my Ph.D., I am excited to build impactful applications using technologies such as Machine Learning, IOT, and Blockchain. Please find my resume [here](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf), and [send me](mailto:gparuthi@umich.edu) a note if you would like to talk about something. 
+  
+  
  </div>
 </div>
 
-<projects></projects>
+<div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
+## PROJECTS
+
+  <projects></projects>
 
 <div class="grid projectGrid">
     <div class="unit notes">
@@ -167,6 +179,9 @@ layout: default
     </div>
 
 </div>
+ </div>
+
+
 <!-- <div style="text-align:right;" class='more'><a href="projects.html">More...</a></div> -->
 
 
