@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.png" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
-  I am Gaurav Paruthi, an HCI researcher with extensive research experience in using design methods to develop futuristic applications of emerging technologies
+  I am Gaurav Paruthi, an HCI researcher with extensive experience in using design methods to develop futuristic applications of emerging technologies
  </div>
 
  </div>
