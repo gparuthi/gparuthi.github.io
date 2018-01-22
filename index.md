@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.png" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
-  I am Gaurav Paruthi, a design technologist with extensive research experience in using user-centered design methods to build systems.
+  I am Gaurav Paruthi, an HCI researcher with extensive research experience in using design methods to develop futuristic applications of emerging technologies
  </div>
 
  </div>
@@ -24,7 +24,7 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I am a Human-Computer Interaction researcher with extensive experience in using design methods to develop futuristic applications of emerging technologies. My expertise lies at the intersection of Design, Engineering, and Research. In the past, I explored AI, AR, and IOT in the areas of Social Computing and Health. 
+My expertise lies at the intersection of Design, Engineering, and Research. In the past, I explored AI, AR, and IOT in the areas of Social Computing and Health. 
  
 I finished my Ph.D. in Human-Computer Interaction from the University of Michigan in the School of Information. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0). My research provides design principles for building intelligent systems for behavior change. For my dissertation research, I worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0), [Ken Resnicow](https://sph.umich.edu/faculty-profiles/resnicow-ken.html), and [Natalie Colabianchi](http://www.kines.umich.edu/directory/faculty/natalie-colabianchi). 
  
