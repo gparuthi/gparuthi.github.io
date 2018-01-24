@@ -11,7 +11,7 @@ abstract:
    We propose the notion of "sweet spots" to encapsulate how particular contextual factors converge to create optimal states for performing physical activities.
 bullets:
 |
-    - [In Submission to IMWUT 2017]
+    - [[IMWUT 2018]](/files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf)
     - [[CHI'14 Workshop Paper]](/files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf)
 publications:
     Under Sumbission:
@@ -22,6 +22,24 @@ publications:
             **User-Similarity for Recommending Lifestyle and Behavior Changes **
             <br />
             [Gaurav Paruthi][gp],
+            <br />
+            CHI 2014 Workshop
+            <br />
+        file:
+        |   
+            /files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf
+    IMWUT-2018:
+        image: /images/contexthealth/cover.png
+        info:
+        |
+            **Finding the Sweet Spot(s): Understanding Context to Support Physical Activity Plans**
+            <br />
+            [Gaurav Paruthi][gp],
+            [Shriti Raj],
+            [Natalie Colabianchi],
+            [Predrag Klasnja],
+            [Mark W Newman]
+
             <br />
             CHI 2014 Workshop
             <br />
