@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.png" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
 {:.bigText} 
-  I am Gaurav Paruthi, an HCI researcher with extensive experience in using design methods to develop  end-user applications of emerging technologies. My expertise lies at the intersection of Design, Engineering, and Research.
+  I am Gaurav Paruthi, a design technologist with extensive experience in using user-centered design methods to build end-to-end applications of emerging technologies. My expertise lies at the intersection of Design, Engineering, and Research.
  </div>
 
  </div>
@@ -24,7 +24,7 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I recently finished my Ph.D. in Human-Computer Interaction from the University of Michigan in the School of Information. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0). My research provides design principles for building intelligent systems for behavior change. I worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0), [Ken Resnicow](https://sph.umich.edu/faculty-profiles/resnicow-ken.html), and [Natalie Colabianchi](http://www.kines.umich.edu/directory/faculty/natalie-colabianchi). 
+I finished my Ph.D. in Human-Computer Interaction from the University of Michigan in the School of Information. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0). My research provides design principles for building intelligent systems for behavior change. I worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0), [Ken Resnicow](https://sph.umich.edu/faculty-profiles/resnicow-ken.html), and [Natalie Colabianchi](http://www.kines.umich.edu/directory/faculty/natalie-colabianchi). 
  
  In the past, I explored the use of emerging technologies in the areas of Social Computing and Health. At [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), I worked with [Bill Thies](http://billthies.net/) to build low-cost educational technology for under-resourced environments. As part of [DOIIIT studio](https://doiiit.github.io/), I worked with [Roland Graf](http://assocreation.com/) on the [Internet of Shoes](http://assocreation.com/project/internet-of-shoes/). At [Telefonica Research](http://www.tid.es/), I worked with [Vanessa Frias](http://www.vanessafriasmartinez.org/) to delve into the micro-lending behavior data from the Kiva website. At Xerox PARC, I worked with [Ashwin Ram](https://www.linkedin.com/in/ashwinram/), on building an intelligent assistant for physical activity promotion. At [IDEO Colab](http://www.ideocolab.com/), I worked on projects related to Blockchains and Smart Cities. My research has been published in top-tier HCI venues such as CHI and UbiComp.
   
