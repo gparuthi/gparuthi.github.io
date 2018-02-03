@@ -292,7 +292,8 @@ ul.projects li.nothumb div {
   max-width: 880px; }
 
 .content p, pre, code {
-  max-width: 670px; }
+  /* max-width: 670px;  */
+}
 
 em {
   font-style: italic; }

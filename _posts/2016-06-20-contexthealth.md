@@ -14,7 +14,6 @@ bullets:
     - [[IMWUT 2018]](/files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf)
     - [[CHI'14 Workshop Paper]](/files/CHI14_workshop_lifestyle_recommendation_study_CR.pdf)
 publications:
-    Under Sumbission:
     CHI-2014 Workshop:
         image: /images/contexthealth/cover.png
         info:
