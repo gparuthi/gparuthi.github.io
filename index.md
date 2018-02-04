@@ -102,7 +102,7 @@ During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [M
             {% endif %}
         {% endfor %}     
         </ul>
-        <more></more>
+        
         <ul class="projects more">
         {% for post in site.posts offset:3 %}
             {% if post.featured %}
@@ -161,6 +161,7 @@ During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [M
             {% endif %}
         {% endfor %}     
         </ul>
+        <more></more>
     </div>
 
 </div>
