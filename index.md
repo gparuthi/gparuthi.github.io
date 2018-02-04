@@ -26,7 +26,7 @@ layout: default
 
 I have 8 years of academic and 3 years of professional experience in designing and building systems that demonstrate product innovation. Having a deep understanding of how technologies work allow me to conceptualize, engineer, and evaluate systems with real-world applications. 
 
-During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as a cofounder of a startup helped me understand the nuances of market trends that affect product adoption.
+During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as a startup cofounder helped me to have a holistic understanding of product development. I learnt how market trends can affect product adoption even when the underlying technology is robust.
 
 My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0). I used qualitative methods to study complex human behavior, and iteratively developed novel systems to articulate unexplored design space.
   
