@@ -28,7 +28,7 @@ I have 8 years of academic experience and 3 years of professional experience in 
 
 My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0).
 
-During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as the cofounder and CTO helped me understand the nuances of market trends that affect the use of any product.
+During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as a cofounder and CTO helped me understand the nuances of market trends that affect the use of any product.
   
   Please find my resume [here](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and [send me](mailto:gparuthi@umich.edu) a note if you would like to connect. 
   
