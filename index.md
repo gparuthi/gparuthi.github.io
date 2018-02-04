@@ -83,6 +83,14 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
                    {% endif %}
                 {% endfor %}
                 {% endif %}
+                {% if post.code %}
+                <span class="publicationText bgText"><i class="fa fa-code"></i></span>
+                {% for publication in post.code %}
+                    {% if publication[1].file %}
+                   <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                   {% endif %}
+                {% endfor %}
+                {% endif %}
 
                 {% if post.abstract %}
                     {{ post.abstract | markdownify }}
@@ -129,6 +137,14 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
                 {% if post.awards %}
                 <span class="publicationText bgText"><i class="fa fa-trophy"></i></span>
                 {% for publication in post.awards %}
+                    {% if publication[1].file %}
+                   <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                   {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% if post.code %}
+                <span class="publicationText bgText"><i class="fa fa-code"></i></span>
+                {% for publication in post.code %}
                     {% if publication[1].file %}
                    <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
                    {% endif %}
