@@ -24,11 +24,11 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I have 8 years of academic experience and 3 years of professional experience in designing and building products and research prototypes. I have led many team projects through the stages of conceptualizing, engineering, and evaluation. I enjoy building high fidelity prototypes to explore design space and doing user research to understand the needs of users.
+I have 8 years of academic and 3 years of professional experience in designing and building systems that demonstrate product innovation. Having a deep understanding of how technologies work allow me to conceptualize, engineer, and evaluate systems with real-world applications. 
 
-My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0).
+During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as a cofounder of a startup helped me understand the nuances of market trends that affect product adoption.
 
-During my professional experience at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/), I led projects in collaborative environments towards solving hard problems. My experience as a cofounder and CTO helped me understand the nuances of market trends that affect the use of any product.
+My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0). I used qualitative methods to study complex human behavior, and iteratively developed novel systems to articulate unexplored design space.
   
   Please find my resume [here](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and [send me](mailto:gparuthi@umich.edu) a note if you would like to connect. 
   
