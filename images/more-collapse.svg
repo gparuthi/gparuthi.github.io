@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="14px" viewBox="0 0 26 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>more-collapse</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="more-collapse" transform="translate(13.000000, 8.000000) rotate(180.000000) translate(-13.000000, -8.000000) translate(-3.000000, -8.000000)">
+            <rect id="Rectangle-path" x="0" y="0" width="32" height="32"></rect>
+            <path d="M3.9902,9.9902 C3.58327468,9.99030374 3.21698529,10.2369522 3.06386187,10.6139687 C2.91073844,10.9909852 3.00131576,11.4231878 3.29293,11.707 L15.29293,23.707 C15.6834642,24.0973934 16.3164958,24.0973934 16.70703,23.707 L28.70703,11.707 C28.9676932,11.4560529 29.0724831,11.0838822 28.9810491,10.7337971 C28.8896151,10.383712 28.616218,10.1103149 28.2661329,10.0188809 C27.9160478,9.92744687 27.5438771,10.0322368 27.29293,10.2929 L15.99993,21.5859 L4.70693,10.2929 C4.51865742,10.0993681 4.26013217,9.99018372 3.99013,9.99017 L3.9902,9.9902 Z" id="Shape" fill="#67809F"></path>
+        </g>
+    </g>
+</svg>

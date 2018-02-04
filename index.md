@@ -6,7 +6,7 @@ layout: default
 <div class="mdl-grid">
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile.png" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
-{:.bigText} 
+  {:.bigText} 
   I am Gaurav Paruthi, a design technologist with extensive experience in using user-centered design methods to build end-to-end applications of emerging technologies. My expertise lies at the intersection of Design, Engineering, and Research.
  </div>
 
@@ -37,56 +37,13 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## PROJECTS
 
-  <projects></projects>
+  
 
-<div class="grid projectGrid">
-    <div class="unit notes">
-        <ul class="projects">
-        <div class="mdl-grid">
-        {% for post in site.posts %}
-
-            {% capture url %}
-                    {% if post contains 'actual_url' %}
-                        {{ post.actual_url }}
-                    {% else %}
-                        {{ post.url }}
-                    {% endif %}
-                {% endcapture %}
-                <div class="mdl-cell" data-tags= "{{ post.tags }}">
-                  {% if post.thumbnail %}
-                  {% if post.metadata_only %}
-                        <img src="{{ post.thumbnail }}" width="100%">
-                    {% else %}
-                        <a href="{{ url }}">
-                        <img src="{{ post.thumbnail }}" width="100%"></a>
-                    {% endif %}
-
-                        
-                    {% endif %}
-                    
-                    <div class="thumbnailTitle">
-                    
-                    {% if post.metadata_only %}
-                    <span  markdown="1">{{ post.title }} </span>
-                    {% else %}
-                        <span markdown="1"><a href="{{ url }}">{{ post.title }}</a></span>
-                    {% endif %}
-
-                    </div>
-                    
-                </div>
-
-        {% endfor %}
-          
-        </div>
-        </ul>
-    </div>
-</div>
 
 <div class="grid projectDetails">
     <div class="unit notes">
         <ul class="projects">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
             {% if post.featured %}
                 {% capture url %}
                     {% if post contains 'actual_url' %}
@@ -133,10 +90,12 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
                 </div>
                 </li>
             {% endif %}
-        {% endfor %}
-        {% for post in site.posts %}
+        {% endfor %}     
+        </ul>
+        <more></more>
+        <ul class="projects more">
+        {% for post in site.posts offset:3 %}
             {% if post.featured %}
-            {% else %}
                 {% capture url %}
                     {% if post contains 'actual_url' %}
                         {{ post.actual_url }}
@@ -167,6 +126,14 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
                    {% endif %}
                 {% endfor %}
                 {% endif %}
+                {% if post.awards %}
+                <span class="publicationText bgText"><i class="fa fa-trophy"></i></span>
+                {% for publication in post.awards %}
+                    {% if publication[1].file %}
+                   <span class="publicationText"><a href="{{publication[1].file}}">{{publication[0]}}</a></span>
+                   {% endif %}
+                {% endfor %}
+                {% endif %}
 
                 {% if post.abstract %}
                     {{ post.abstract | markdownify }}
@@ -174,9 +141,7 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
                 </div>
                 </li>
             {% endif %}
-        {% endfor %}
-        
-        
+        {% endfor %}     
         </ul>
     </div>
 

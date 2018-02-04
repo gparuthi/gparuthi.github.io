@@ -276,7 +276,6 @@ ul.projects li img {
     -webkit-filter: sepia(60%); /* Safari 6.0 - 9.0 */
     filter: sepia(60%); 
 }
-  
 
 ul.projects li div {
   margin-left: 200px; }
@@ -434,8 +433,12 @@ h5 {
 }
 .projectDetails {
   min-height: 600px;
+  /* display: none; */
+}
+.more {
   display: none;
 }
+
 
 .thumbnailTitle {
   font-size: 13px;

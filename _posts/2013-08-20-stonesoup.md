@@ -25,19 +25,19 @@ Community displays facilitate interaction and increase awareness in collocated c
 
 
 
-##This is how it looks like:
+## This is how it looks like:
 <p><img width="600" src="/images/stonesoup/StoneSoup_renderer.png" alt="Renderer"></p>
 
-##Mobile App
+## Mobile App
 <p><img src="/images/stonesoup/StoneSoup_mobile.png" alt="mobile"></p>
 
-##Architecture
+## Architecture
 <p><img src="/images/stonesoup/StoneSoup_architecture.png" alt="Architecture of our application."></p>
 
-##Deployment
+## Deployment
 <p><img width="600" src="/images/stonesoup/deployment.jpg" alt="Deployment."></p>
 
-##Video
+## Video
 <iframe src="//player.vimeo.com/video/106542992" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 <p><a href="http://vimeo.com/106542992">StoneSoup: A Proactive Community Display</a>.</p>
 
