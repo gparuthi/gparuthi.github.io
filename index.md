@@ -28,7 +28,7 @@ I finished my Ph.D. in Human-Computer Interaction from the University of Michiga
  
  In the past, I explored the use of emerging technologies in the areas of Social Computing and Health. At [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), I worked with [Bill Thies](http://billthies.net/) to build low-cost educational technology for under-resourced environments. As part of [DOIIIT studio](https://doiiit.github.io/), I worked with [Roland Graf](http://assocreation.com/) on the [Internet of Shoes](http://assocreation.com/project/internet-of-shoes/). At [Telefonica Research](http://www.tid.es/), I worked with [Vanessa Frias](http://www.vanessafriasmartinez.org/) to delve into the micro-lending behavior data from the Kiva website. At Xerox PARC, I worked with [Ashwin Ram](https://www.linkedin.com/in/ashwinram/), on building an intelligent assistant for physical activity promotion. At [IDEO Colab](http://www.ideocolab.com/), I worked on projects related to Blockchains and Smart Cities. My research has been published in top-tier HCI venues such as CHI and UbiComp.
   
-  Please find my resume [here](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf), and [send me](mailto:gparuthi@umich.edu) a note if you would like to connect. 
+  Please find my resume [here](https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf) and [send me](mailto:gparuthi@umich.edu) a note if you would like to connect. 
   
   
  </div>
