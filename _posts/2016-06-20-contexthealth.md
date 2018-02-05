@@ -18,7 +18,7 @@ publications:
         image: /images/contexthealth/cover.png
         info:
         |
-            **User-Similarity for Recommending Lifestyle and Behavior Changes **
+            **User-Similarity for Recommending Lifestyle and Behavior Changes**
             <br />
             [Gaurav Paruthi][gp],
             <br />
