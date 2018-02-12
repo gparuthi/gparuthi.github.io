@@ -19,7 +19,7 @@ layout: default
                 <a href="https://github.com/gparuthi/" title="github"><i class="fa fa-github"></i></a> ·
                 <a href="http://www.linkedin.com/in/gparuthi" title="LinkedIn"><i class="fa fa-linkedin"></i></a> ·
                 <a href="http://scholar.google.com/citations?user=WsoaFHIAAAAJ&hl=en" title="scholar"><i class="fa fa-graduation-cap"></i></a>  ·
-                <a href="https://rawgit.com/gparuthi/resume/master/gauravparuthi.pdf" title="resume"><i class="fa fa-file-text-o"></i></a>  
+                <a href="/files/gauravparuthi.pdf" title="resume"><i class="fa fa-file-text-o"></i></a>  
 </div>
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
