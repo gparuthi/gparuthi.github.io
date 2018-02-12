@@ -1,5 +1,5 @@
 ---
-title: Designing Context-Aware Applications for Behavior Change
+title: Improving Computational Models of Human Behavior 
 category: academic
 featured: true
 thumbnail: "/images/contexthealth/cover.png"
