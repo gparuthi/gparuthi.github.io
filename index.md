@@ -24,7 +24,7 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I have 8 years of academic and 3 years of professional experience in designing and building systems that demonstrate product innovation. Having a deep understanding of how technologies work allow me to conceptualize, engineer, and evaluate systems with real-world applications. 
+I have 8 years of academic and 3 years of professional experience in the research, design, and development of systems that demonstrate product innovation. Having a deep understanding of how technologies work allow me to conceptualize, engineer, and evaluate systems with real-world applications. 
 
 My professional experience was at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/). I led projects in collaborative environments towards solving hard problems. My experience as a startup cofounder helped me to gain a holistic understanding of product development. I learnt how market trends can affect product adoption even when the underlying technology is robust.
 
