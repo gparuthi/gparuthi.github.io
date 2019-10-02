@@ -7,7 +7,7 @@ layout: default
   <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"><img src="/images/profile2.png" width="100%"/></div>
   <div class="intro mdl-cell mdl-cell--10-col mdl-cell--12-col-phone" markdown="1">
   {:.bigText} 
-  I am Gaurav Paruthi, a design technologist with a broad and extensive product design experience.  
+  I am Gaurav Paruthi, a research engineer with a broad and extensive product design experience.  
  </div>
 
  </div>
@@ -24,9 +24,9 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I have 8 years of academic and 3 years of professional experience in the research, design, and development of systems that demonstrate product innovation. Having a deep understanding of how technologies work allows me to conceptualize, engineer, and evaluate systems with real-world applications. 
+I have 8 years of academic and 4 years of professional experience in the research, design, and development of systems that demonstrate product innovation. Having a deep understanding of how technologies work allows me to conceptualize, engineer, and evaluate systems with real-world applications. 
 
-My professional experience was at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/). I led projects in collaborative environments towards creating new experiences for users. My experience as an entrepreneur helped me to gain a holistic understanding of product development. 
+I currently work at [KindredAI](http://www.kindred.ai/), where I work on building state of the art computer vision algorithms for robotic manipulation in production . My previous professional experience was at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/). I led projects in collaborative environments towards creating new experiences for users. My experience as an entrepreneur helped me to gain a holistic understanding of product development. 
 
 My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0). My research unites design and engineering to create simple solutions for complex problems.
   
