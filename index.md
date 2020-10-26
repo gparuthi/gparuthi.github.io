@@ -24,9 +24,7 @@ layout: default
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
 ## ABOUT ME
 
-I have 8 years of academic and 4 years of professional experience in the research, design, and development of systems that demonstrate product innovation. Having a deep understanding of how technologies work allows me to conceptualize, engineer, and evaluate systems with real-world applications. 
-
-I currently work at [KindredAI](http://www.kindred.ai/), where I work on building state of the art computer vision algorithms for robotic manipulation in production . My previous professional experience was at [IDEO Colab](http://www.ideocolab.com/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), [Xerox PARC](https://www.parc.com/), and [Telefonica Research](http://www.tid.es/). I led projects in collaborative environments towards creating new experiences for users. My experience as an entrepreneur helped me to gain a holistic understanding of product development. 
+Gaurav has a Ph.D. in Human Computer Interaction from University of Michigan. He has designed and built end-to-end systems for more than 15 years that have received recognition in global software-design competitions, top-tier academic journals, and entrepreneurship awards of excellence at the University of Michigan. His diverse skillset and product buiding experience at Microsoft, KindredAI, IDEO Colab, Xerox PARC, and Telefonica Research allows him to collaborate with diverse teams to bring innovative software ideas to life.
 
 My Ph.D. research provides design principles for building intelligent systems for behavior change. I was advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman#gsc.tab=0) and worked with [Pedja Klasnja](https://www.si.umich.edu/people/predrag-klasnja#gsc.tab=0). My research unites design and engineering to create simple solutions for complex problems.
   
