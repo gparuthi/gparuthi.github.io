@@ -24,12 +24,12 @@ My Ph.D. research provides design principles for building intelligent systems fo
 </div>
 
 <div class=" mdl-cell mdl-cell--12-col mdl-cell--12-col-phone" markdown="1">
-## PROJECTS (< 2018)
+## SELECTED PROJECTS (before 2018)
 
 <div class="grid projectDetails">
     <div class="unit notes">
         <ul class="projects">
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:10 %}
             {% if post.featured %}
                 {% capture url %}
                     {% if post contains 'actual_url' %}
@@ -42,7 +42,7 @@ My Ph.D. research provides design principles for building intelligent systems fo
                 <li data-tags= "{{ post.tags }}">
                 {% if post.thumbnail %}
                     <a href="{{ url }}">
-                    <img src="{{ post.thumbnail }}" width="180px"></a>
+                    <img src="{{ post.thumbnail }}" width="180px" style="max-height: 137px"></a>
                 {% endif %}
 
                 <div>
